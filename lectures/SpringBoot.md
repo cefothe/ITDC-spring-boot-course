@@ -9,3 +9,5 @@ Before understanding the Spring Boot Architecture, we must know the different la
 
 ## Spring Boot Flow Architecture
 ![Spting boot flow](spring-boot-architecture2.png)
+
+## Resource
