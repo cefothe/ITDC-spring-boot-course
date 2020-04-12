@@ -8,6 +8,7 @@ import javax.persistence.Entity;
 @DiscriminatorValue(value = "SILVER")
 public final class SilverProduct extends Product {
 
+    private static String SILVER_TYPE = "SILVER";
     private static final Double BAND_WIDTH = 30d;
     private static final BigDecimal FEE = BigDecimal.valueOf(15);
 
@@ -16,6 +17,11 @@ public final class SilverProduct extends Product {
     }
 
     protected SilverProduct() {
+    }
+
+    @Override
+    public String getProductType() {
+        return SILVER_TYPE;
     }
 
     public static Product create(){

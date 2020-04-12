@@ -41,4 +41,6 @@ public abstract class Product extends BaseEntity {
         this.fee = fee;
     }
 
+    public abstract String getProductType();
+
 }
