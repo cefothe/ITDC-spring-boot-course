@@ -20,7 +20,6 @@ of the original HTTP message is sent in this version of HTTP,
 the semantics of each message is unchanged and the client 
 reconstitutes (virtually) the original HTTP/1.1 request. 
 It is therefore useful to comprehend HTTP/2 messages in the HTTP/1.1 format.
-
 #### Requests
 ![HTTP request](HTTP_Request.png)
 
