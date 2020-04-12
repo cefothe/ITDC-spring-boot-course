@@ -1,4 +1,4 @@
-package eu.it.different.courses.springboottraining;
+package eu.it.different.courses.springboottraining.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
